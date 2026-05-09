@@ -1,0 +1,1155 @@
+
+    <!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="refresh" content="300">
+        <title>Foot Sync - Scores en Direct</title>
+        <style>
+            body { font-family: sans-serif; background-color: #000; color: #fff; text-align: center; padding: 10px; }
+            .card { background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 15px; margin: 10px auto; max-width: 400px; }
+            .live { color: #00ff00; font-weight: bold; animation: blink 1s infinite; }
+            @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+            .teams { font-size: 1.1em; margin: 10px 0; }
+        </style>
+    </head>
+    <body>
+        <h1 style="color:#00ff00;">⚽ Foot Sync Live</h1>
+        <p>Mis à jour : 13:32</p>
+    
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Cagliari 0 - 0 Udinese</div>
+                <div style="font-size:0.8em; color:#888;">Serie A</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Widzew Łódź 3 - 0 Lechia Gdansk</div>
+                <div style="font-size:0.8em; color:#888;">Ekstraklasa</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Bravo 0 - 1 Radomlje</div>
+                <div style="font-size:0.8em; color:#888;">1. SNL</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 2'</div>
+                <div class="teams">FC Augsburg 0 - 0 Borussia Mönchengladbach</div>
+                <div style="font-size:0.8em; color:#888;">Bundesliga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 2'</div>
+                <div class="teams">1899 Hoffenheim 0 - 0 Werder Bremen</div>
+                <div style="font-size:0.8em; color:#888;">Bundesliga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 1'</div>
+                <div class="teams">RB Leipzig 0 - 0 FC St. Pauli</div>
+                <div style="font-size:0.8em; color:#888;">Bundesliga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 2'</div>
+                <div class="teams">VfB Stuttgart 0 - 1 Bayer Leverkusen</div>
+                <div style="font-size:0.8em; color:#888;">Bundesliga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Wals-Grünau 0 - 1 Kuchl</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - West</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 29'</div>
+                <div class="teams">Ijsselmeervogels 0 - 0 HHC</div>
+                <div style="font-size:0.8em; color:#888;">Tweede Divisie</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 28'</div>
+                <div class="teams">Kozakken Boys 0 - 0 GVVV Veenendaal</div>
+                <div style="font-size:0.8em; color:#888;">Tweede Divisie</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 14'</div>
+                <div class="teams">AFC Amsterdam 0 - 0 Excelsior Maassluis</div>
+                <div style="font-size:0.8em; color:#888;">Tweede Divisie</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 33'</div>
+                <div class="teams">Roma U20 0 - 0 Sassuolo U20</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 1</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 23'</div>
+                <div class="teams">Darmstadt 98 II 1 - 0 Fernwald</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Hessen</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 24'</div>
+                <div class="teams">Schott Mainz 1 - 1 Balingen</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - SudWest</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 33'</div>
+                <div class="teams">Türkspor Augsburg 0 - 0 Pipinsried</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Bayern Süd</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 29'</div>
+                <div class="teams">Kirchanschöring 1 - 0 Gundelfingen</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Bayern Süd</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 33'</div>
+                <div class="teams">Stadeln 0 - 0 Cham</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Bayern Nord</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Victoria Września 0 - 0 Luzino</div>
+                <div style="font-size:0.8em; color:#888;">III Liga - Group 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Elana Toruń 0 - 2 Zawisza Bydgoszcz</div>
+                <div style="font-size:0.8em; color:#888;">III Liga - Group 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">Korona Kielce II 0 - 1 Pogoń-Sokół Lubaczów</div>
+                <div style="font-size:0.8em; color:#888;">III Liga - Group 4</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">ASC Dortmund 1 - 0 Preußen Münster II</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Westfalen</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">Luzern II 0 - 1 Brühl</div>
+                <div style="font-size:0.8em; color:#888;">1. Liga Promotion</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Orbit College 0 - 0 Amazulu</div>
+                <div style="font-size:0.8em; color:#888;">Premier Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Marumo Gallants 0 - 1 Richards Bay</div>
+                <div style="font-size:0.8em; color:#888;">Premier Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Golden Arrows 0 - 0 Polokwane City</div>
+                <div style="font-size:0.8em; color:#888;">Premier Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">TS Galaxy 0 - 0 Chippa United</div>
+                <div style="font-size:0.8em; color:#888;">Premier Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Qabala 0 - 1 Qarabag</div>
+                <div style="font-size:0.8em; color:#888;">Premyer Liqa</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Singida Black Stars 1 - 0 Mtibwa Sugar</div>
+                <div style="font-size:0.8em; color:#888;">Ligi kuu Bara</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 28'</div>
+                <div class="teams">Manacor 0 - 0 Mallorca II</div>
+                <div style="font-size:0.8em; color:#888;">Tercera División RFEF - Group 11</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Virtus Entella U19 1 - 0 Como U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">Venezia U19 0 - 0 Renate U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 29'</div>
+                <div class="teams">Modena U19 0 - 0 Cittadella U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 28'</div>
+                <div class="teams">Pro Vercelli U19 0 - 0 AlbinoLeffe U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Pisa U19 1 - 0 Spezia U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 29'</div>
+                <div class="teams">Palermo U19 0 - 0 Perugia U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Ternana U19 0 - 0 Pescara U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">Monopoli U19 0 - 0 Cosenza U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">Salernitana U19 0 - 0 Avellino U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 28'</div>
+                <div class="teams">Padova U19 1 - 0 Udinese U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 28'</div>
+                <div class="teams">Lecco U19 0 - 2 Sampdoria U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Crotone U19 0 - 0 Catanzaro U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 29'</div>
+                <div class="teams">Brescia U19 1 - 1 Sudtirol U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 17'</div>
+                <div class="teams">AFC Leopards 1 - 0 Mara Sugar</div>
+                <div style="font-size:0.8em; color:#888;">FKF Premier League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 29'</div>
+                <div class="teams">Genoa W 1 - 1 Fiorentina W</div>
+                <div style="font-size:0.8em; color:#888;">Serie A Women</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Arkonia U19 0 - 1 Legia Warszawa U19</div>
+                <div style="font-size:0.8em; color:#888;">Central Youth League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">Baník Souš 0 - 0 Mladá Boleslav II</div>
+                <div style="font-size:0.8em; color:#888;">3. liga - CFL B</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">Slovan Velvary 2 - 1 Jablonec II</div>
+                <div style="font-size:0.8em; color:#888;">3. liga - CFL B</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Degerfors IF 0 - 2 Mjallby AIF</div>
+                <div style="font-size:0.8em; color:#888;">Allsvenskan</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">IFK Goteborg 0 - 0 Hammarby FF</div>
+                <div style="font-size:0.8em; color:#888;">Allsvenskan</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Vasteras SK FK 0 - 0 Gais</div>
+                <div style="font-size:0.8em; color:#888;">Allsvenskan</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Bulawayo Chiefs 1 - 1 Herentals</div>
+                <div style="font-size:0.8em; color:#888;">Premier Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">Hunters 0 - 0 Ngezi Platinum</div>
+                <div style="font-size:0.8em; color:#888;">Premier Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">Manica Diamonds 0 - 0 Agama</div>
+                <div style="font-size:0.8em; color:#888;">Premier Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 29'</div>
+                <div class="teams">MWOS 0 - 0 Chicken Inn</div>
+                <div style="font-size:0.8em; color:#888;">Premier Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Platinum 0 - 0 Scotland Mabvuku</div>
+                <div style="font-size:0.8em; color:#888;">Premier Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Simba Bhora 0 - 0 Kariba</div>
+                <div style="font-size:0.8em; color:#888;">Premier Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 29'</div>
+                <div class="teams">TelOne 0 - 1 Hardrock</div>
+                <div style="font-size:0.8em; color:#888;">Premier Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Kristianstad 0 - 0 Norrköping W</div>
+                <div style="font-size:0.8em; color:#888;">Damallsvenskan</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Växjö 0 - 2 AIK</div>
+                <div style="font-size:0.8em; color:#888;">Damallsvenskan</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Notodden 0 - 0 Kvik Halden</div>
+                <div style="font-size:0.8em; color:#888;">2. Division - Group 1</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Junkeren 0 - 0 Kjelsås</div>
+                <div style="font-size:0.8em; color:#888;">2. Division - Group 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 4'</div>
+                <div class="teams">Stjørdals-Blink 0 - 1 Skeid</div>
+                <div style="font-size:0.8em; color:#888;">2. Division - Group 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Byåsen 1 - 0 Ranheim II</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Molde II 1 - 0 NTNUI</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">Spjelkavik 2 - 1 Aalesund II</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">Førde 1 - 1 Gneist</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 3</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Vindbjart 0 - 1 Staal Jørpeland</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 4</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Bjørkelangen 0 - 1 Elverum</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 6</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Norrby IF 1 - 0 Helsingborg</div>
+                <div style="font-size:0.8em; color:#888;">Superettan</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Trelleborg W 0 - 0 Alingsås W</div>
+                <div style="font-size:0.8em; color:#888;">Elitettan</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 33'</div>
+                <div class="teams">HB II 0 - 1 Víkingur II</div>
+                <div style="font-size:0.8em; color:#888;">1. Deild</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 29'</div>
+                <div class="teams">Gicumbi 0 - 1 Bugesera</div>
+                <div style="font-size:0.8em; color:#888;">National Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Musanze 0 - 0 Police</div>
+                <div style="font-size:0.8em; color:#888;">National Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 27'</div>
+                <div class="teams">Mukura 0 - 1 Gorilla</div>
+                <div style="font-size:0.8em; color:#888;">National Soccer League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Kungsängen 0 - 0 Bollstanäs</div>
+                <div style="font-size:0.8em; color:#888;">Division 2 - Norra Svealand</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Kitara 0 - 0 NEC</div>
+                <div style="font-size:0.8em; color:#888;">Premier League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">SalPa 3 - 0 KPV-j</div>
+                <div style="font-size:0.8em; color:#888;">Ykkönen</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Nairobi City Stars 0 - 0 Vihiga United FC</div>
+                <div style="font-size:0.8em; color:#888;">Super League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Belshina 1 - 0 FC Vitebsk</div>
+                <div style="font-size:0.8em; color:#888;">Premier League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Ravshan 1 - 0 Istaravshan</div>
+                <div style="font-size:0.8em; color:#888;">Vysshaya Liga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Yelimay Semey 0 - 0 Kaspiy</div>
+                <div style="font-size:0.8em; color:#888;">Premier League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">Valmiera / BSS 0 - 0 JDFS Alberts</div>
+                <div style="font-size:0.8em; color:#888;">1. Liga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Bahia de Feira U20 2 - 0 Vitória U20</div>
+                <div style="font-size:0.8em; color:#888;">Baiano U20</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 35'</div>
+                <div class="teams">Viking FK W 1 - 1 Start W</div>
+                <div style="font-size:0.8em; color:#888;">1. Division Women</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Panserraikos 1 - 0 Kifisia</div>
+                <div style="font-size:0.8em; color:#888;">Super League 1</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">LASK 0 - 0 Rheindorf Altach</div>
+                <div style="font-size:0.8em; color:#888;">Frauenliga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 33'</div>
+                <div class="teams">Nação U20 0 - 0 Figueirense U20</div>
+                <div style="font-size:0.8em; color:#888;">Catarinense U20</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 31'</div>
+                <div class="teams">Fremad Amager 0 - 0 Brabrand</div>
+                <div style="font-size:0.8em; color:#888;">2. Division</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 16'</div>
+                <div class="teams">Cherno More Varna 0 - 0 Botev Plovdiv</div>
+                <div style="font-size:0.8em; color:#888;">First League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 30'</div>
+                <div class="teams">Hadiya Hosaena 0 - 0 Awassa Kenema</div>
+                <div style="font-size:0.8em; color:#888;">Premier League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 29'</div>
+                <div class="teams">Musa 0 - 0 HJS Akatemia</div>
+                <div style="font-size:0.8em; color:#888;">Kakkonen - Lohko B</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Chanmari 0 - 0 Dempo</div>
+                <div style="font-size:0.8em; color:#888;">I-League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Maniema Union 0 - 1 Simba</div>
+                <div style="font-size:0.8em; color:#888;">Ligue 1</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Independiente F.b.c. 1 - 0 3 de Noviembre</div>
+                <div style="font-size:0.8em; color:#888;">Division Intermedia</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 32'</div>
+                <div class="teams">Tacuary 0 - 0 Fernando De La Mora</div>
+                <div style="font-size:0.8em; color:#888;">Division Intermedia</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 25'</div>
+                <div class="teams">Universidade de Macau 0 - 1 Jia Hua</div>
+                <div style="font-size:0.8em; color:#888;">Primeira Divisão</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Floriana 0 - 0 Valletta FC</div>
+                <div style="font-size:0.8em; color:#888;">Premier League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 26'</div>
+                <div class="teams">La Luz 0 - 0 Colón</div>
+                <div style="font-size:0.8em; color:#888;">Segunda División</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 33'</div>
+                <div class="teams">Virtus 0 - 0 Domagnano</div>
+                <div style="font-size:0.8em; color:#888;">Campionato</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Elche 1 - 1 Alaves</div>
+                <div style="font-size:0.8em; color:#888;">La Liga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 64'</div>
+                <div class="teams">AD Ceuta FC 0 - 1 Castellón</div>
+                <div style="font-size:0.8em; color:#888;">Segunda División</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 69'</div>
+                <div class="teams">Energie Cottbus 1 - 1 SV Wehen</div>
+                <div style="font-size:0.8em; color:#888;">3. Liga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 68'</div>
+                <div class="teams">Hansa Rostock 4 - 2 Stuttgart II</div>
+                <div style="font-size:0.8em; color:#888;">3. Liga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 76'</div>
+                <div class="teams">TSV 1860 München 1 - 2 FC Ingolstadt 04</div>
+                <div style="font-size:0.8em; color:#888;">3. Liga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 71'</div>
+                <div class="teams">Rot-Weiß Essen 1 - 0 Verl</div>
+                <div style="font-size:0.8em; color:#888;">3. Liga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 71'</div>
+                <div class="teams">VfL Osnabrück 1 - 1 SSV Ulm 1846</div>
+                <div style="font-size:0.8em; color:#888;">3. Liga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 73'</div>
+                <div class="teams">Seekirchen 2 - 3 Rheindorf Altach II</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - West</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 73'</div>
+                <div class="teams">SC Freiburg W 2 - 3 VfL Wolfsburg W</div>
+                <div style="font-size:0.8em; color:#888;">Frauen Bundesliga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 76'</div>
+                <div class="teams">Persis Solo 0 - 0 Persebaya Surabaya</div>
+                <div style="font-size:0.8em; color:#888;">Liga 1</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 54'</div>
+                <div class="teams">DPMM FC Brunei 0 - 0 Sabah FA</div>
+                <div style="font-size:0.8em; color:#888;">Super League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 75'</div>
+                <div class="teams">CFR Pforzheim 2 - 1 Göppinger SV</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Baden-Württemberg</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 72'</div>
+                <div class="teams">FC 08 Villingen 1 - 1 VfR Mannheim</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Baden-Württemberg</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 75'</div>
+                <div class="teams">FC Grimma 0 - 3 Krieschow</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Nordost-Süd</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 75'</div>
+                <div class="teams">Auerbach 0 - 1 Einheit Rudolstadt</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Nordost-Süd</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 77'</div>
+                <div class="teams">Bischofswerdaer FV 0 - 1 Union Sandersdorf</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Nordost-Süd</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 78'</div>
+                <div class="teams">RSV Eintracht 0 - 1 Plauen</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Nordost-Süd</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 73'</div>
+                <div class="teams">Eintracht Frankfurt II 2 - 1 TuBa Pohlheim</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Hessen</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 76'</div>
+                <div class="teams">BFC Preussen 1 - 1 ZFC Meuselwitz</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - Nordost</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 70'</div>
+                <div class="teams">FC Rot-Weiß Erfurt 3 - 1 Hertha Zehlendorf</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - Nordost</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 71'</div>
+                <div class="teams">Buchholz 2 - 0 Paloma</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Hamburg</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 73'</div>
+                <div class="teams">Niendorfer TSV 2 - 0 Teutonia Ottensen</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Hamburg</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 73'</div>
+                <div class="teams">Werder Bremen II 3 - 0 SSV Jeddeloh</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - Nord</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 76'</div>
+                <div class="teams">Bayreuth 0 - 0 Nürnberg II</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - Bayern</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 71'</div>
+                <div class="teams">Würzburger Kickers 3 - 0 SpVgg Unterhaching</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - Bayern</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 68'</div>
+                <div class="teams">Wacker Burghausen 3 - 0 Ansbach</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - Bayern</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 76'</div>
+                <div class="teams">Hankofen-Hailing 1 - 5 Illertissen</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - Bayern</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 71'</div>
+                <div class="teams">Greuther Fürth II 0 - 0 Augsburg II</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - Bayern</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 72'</div>
+                <div class="teams">Schwaben Augsburg 3 - 1 Aubstadt</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - Bayern</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 61'</div>
+                <div class="teams">FSV Frankfurt 1 - 1 FSV Mainz 05 II</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - SudWest</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 72'</div>
+                <div class="teams">FC 08 Homburg 3 - 1 Bayern Alzenau</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - SudWest</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 67'</div>
+                <div class="teams">SGV Freiberg 1 - 2 SV Sandhausen</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - SudWest</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 69'</div>
+                <div class="teams">SG Sonnenhof Grossaspach 0 - 1 Barockstadt Fulda-Lehn.</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - SudWest</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 68'</div>
+                <div class="teams">Freiburg II 1 - 2 Kickers Offenbach</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - SudWest</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 65'</div>
+                <div class="teams">Bahlinger SC 1 - 2 Eintracht Trier</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - SudWest</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 65'</div>
+                <div class="teams">Hessen Kassel 0 - 0 TSV Steinbach</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - SudWest</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 70'</div>
+                <div class="teams">FC Astoria Walldorf 0 - 0 Stuttgarter Kickers</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - SudWest</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 77'</div>
+                <div class="teams">Ismaning 0 - 0 Kottern</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Bayern Süd</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Hohenwestedt 1 - 2 Union Neumünster</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Schleswig-Holstein</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 71'</div>
+                <div class="teams">Fortuna Düsseldorf II 1 - 1 Wuppertaler SV</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - West</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 70'</div>
+                <div class="teams">Schalke 04 II 0 - 0 FC Bocholt</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - West</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 70'</div>
+                <div class="teams">Rot-weiss Oberhausen 1 - 0 Borussia M'gladbach II</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - West</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 68'</div>
+                <div class="teams">Bonner SC 1 - 2 Sportfreunde Lotte</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - West</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 73'</div>
+                <div class="teams">SV Rodinghausen 0 - 0 Wiedenbrück</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - West</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 71'</div>
+                <div class="teams">Fortuna Köln 2 - 1 Sportfreunde Siegen</div>
+                <div style="font-size:0.8em; color:#888;">Regionalliga - West</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 73'</div>
+                <div class="teams">Znicz Biała Piska 0 - 2 Swit</div>
+                <div style="font-size:0.8em; color:#888;">III Liga - Group 1</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 73'</div>
+                <div class="teams">Wasilków 0 - 1 Warta Sieradz</div>
+                <div style="font-size:0.8em; color:#888;">III Liga - Group 1</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 70'</div>
+                <div class="teams">Pogoń Szczecin II 1 - 1 Kluczevia Stargard</div>
+                <div style="font-size:0.8em; color:#888;">III Liga - Group 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 72'</div>
+                <div class="teams">Woltmershausen 0 - 1 OSC Bremerhaven</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Bremen</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 69'</div>
+                <div class="teams">Barakaldo 1 - 0 Mérida AD</div>
+                <div style="font-size:0.8em; color:#888;">Primera División RFEF - Group 1</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 70'</div>
+                <div class="teams">Ipswich Town U18 2 - 5 Aston Villa U18</div>
+                <div style="font-size:0.8em; color:#888;">U18 Premier League - South</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Southampton U18 3 - 0 Birmingham City U18</div>
+                <div style="font-size:0.8em; color:#888;">U18 Premier League - South</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 68'</div>
+                <div class="teams">Sarpsborg 08 FF 1 - 1 Fredrikstad</div>
+                <div style="font-size:0.8em; color:#888;">Eliteserien</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 77'</div>
+                <div class="teams">Brommapojkarna W 0 - 1 Eskilstuna United</div>
+                <div style="font-size:0.8em; color:#888;">Damallsvenskan</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 72'</div>
+                <div class="teams">Inter Turku 2 - 0 FF Jaro</div>
+                <div style="font-size:0.8em; color:#888;">Veikkausliiga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 76'</div>
+                <div class="teams">Eidsvold 4 - 0 Follo</div>
+                <div style="font-size:0.8em; color:#888;">2. Division - Group 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 73'</div>
+                <div class="teams">Asker 3 - 0 Heming</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 1</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Konnerud 1 - 4 Gamle Oslo</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 1</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Melhus 2 - 1 Nardo</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 75'</div>
+                <div class="teams">Askøy 2 - 1 Varegg</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 3</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 72'</div>
+                <div class="teams">Austevoll 0 - 1 Djerv</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 3</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Stord 4 - 4 Os</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 3</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Bossekop 2 - 1 Ulfstind</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 5</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 72'</div>
+                <div class="teams">Brumunddal 1 - 4 Oppsal</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 6</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Drøbak / Frogn 1 - 1 Lillehammer</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 6</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 73'</div>
+                <div class="teams">Örebro Söder W 2 - 0 Häcken II</div>
+                <div style="font-size:0.8em; color:#888;">Elitettan</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 75'</div>
+                <div class="teams">JIPPO 0 - 1 Klubi-04</div>
+                <div style="font-size:0.8em; color:#888;">Ykkösliiga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 75'</div>
+                <div class="teams">ÍF II 2 - 1 B71</div>
+                <div style="font-size:0.8em; color:#888;">1. Deild</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 68'</div>
+                <div class="teams">Groningen U21 1 - 0 Feyenoord U21</div>
+                <div style="font-size:0.8em; color:#888;">U21 Divisie 1</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 65'</div>
+                <div class="teams">Sittard U21 1 - 3 ADO Den Haag II</div>
+                <div style="font-size:0.8em; color:#888;">U21 Divisie 1</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 76'</div>
+                <div class="teams">Motala 0 - 4 IFK Skövde</div>
+                <div style="font-size:0.8em; color:#888;">Division 2 - Norra Götaland</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Skara 0 - 1 Husqvarna</div>
+                <div style="font-size:0.8em; color:#888;">Division 2 - Norra Götaland</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Grebbestad 0 - 2 Ahlafors</div>
+                <div style="font-size:0.8em; color:#888;">Division 2 - Norra Götaland</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 76'</div>
+                <div class="teams">Oskarshamns AIK 6 - 1 Torns</div>
+                <div style="font-size:0.8em; color:#888;">Division 2 - Östra Götaland</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Friska Viljor 1 - 1 IFK Östersund</div>
+                <div style="font-size:0.8em; color:#888;">Division 2 - Norrland</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 75'</div>
+                <div class="teams">Rops 0 - 0 TPV</div>
+                <div style="font-size:0.8em; color:#888;">Ykkönen</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 81'</div>
+                <div class="teams">Rot-Weiß Erfurt U19 0 - 0 SC Borea Dresden U19</div>
+                <div style="font-size:0.8em; color:#888;">U19 Bundesliga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 64'</div>
+                <div class="teams">Darajani Gogo 0 - 4 Equity Bank</div>
+                <div style="font-size:0.8em; color:#888;">Super League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 68'</div>
+                <div class="teams">Nzoia Sugar 2 - 3 Luanda Villa</div>
+                <div style="font-size:0.8em; color:#888;">Super League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 90'</div>
+                <div class="teams">Shanghai Shenhua 2 - 2 Chongqing Tongliang Long</div>
+                <div style="font-size:0.8em; color:#888;">Super League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 71'</div>
+                <div class="teams">Chengdu Better City 1 - 0 Henan Jianye</div>
+                <div style="font-size:0.8em; color:#888;">Super League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 79'</div>
+                <div class="teams">Super Nova 2 1 - 0 Rēzekne FA</div>
+                <div style="font-size:0.8em; color:#888;">1. Liga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 71'</div>
+                <div class="teams">Atmosfera 1 - 0 Babrungas</div>
+                <div style="font-size:0.8em; color:#888;">1 Lyga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 67'</div>
+                <div class="teams">Feirense U20 0 - 4 Bahia U20</div>
+                <div style="font-size:0.8em; color:#888;">Baiano U20</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Lida 1 - 0 Osipovichy</div>
+                <div style="font-size:0.8em; color:#888;">1. Division</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 75'</div>
+                <div class="teams">Fortuna Hjørring 2 - 1 AGF</div>
+                <div style="font-size:0.8em; color:#888;">Kvindeliga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 77'</div>
+                <div class="teams">Kolbotn W 0 - 1 Bryne W</div>
+                <div style="font-size:0.8em; color:#888;">1. Division Women</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Grei W 1 - 4 Arna-Bjørnar W</div>
+                <div style="font-size:0.8em; color:#888;">1. Division Women</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">AC Horsens 3 - 0 Hillerød</div>
+                <div style="font-size:0.8em; color:#888;">1. Division</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 74'</div>
+                <div class="teams">Aarhus Fremad 0 - 0 HB Koge</div>
+                <div style="font-size:0.8em; color:#888;">1. Division</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 72'</div>
+                <div class="teams">Austria Wien W 3 - 0 Sturm Graz W</div>
+                <div style="font-size:0.8em; color:#888;">Frauenliga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 90'</div>
+                <div class="teams">VSK Århus 5 - 2 Ishøj</div>
+                <div style="font-size:0.8em; color:#888;">2. Division</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 75'</div>
+                <div class="teams">Næsby 4 - 0 Hørsholm-Usserød</div>
+                <div style="font-size:0.8em; color:#888;">3. Division</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 73'</div>
+                <div class="teams">Vanløse 0 - 3 Nykobing FC</div>
+                <div style="font-size:0.8em; color:#888;">3. Division</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 70'</div>
+                <div class="teams">Adama Kenema 4 - 0 Suhul Shire</div>
+                <div style="font-size:0.8em; color:#888;">Premier League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 71'</div>
+                <div class="teams">ÅIFK 3 - 1 GrIFK</div>
+                <div style="font-size:0.8em; color:#888;">Kakkonen - Lohko B</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 69'</div>
+                <div class="teams">P-Iirot 1 - 0 EBK</div>
+                <div style="font-size:0.8em; color:#888;">Kakkonen - Lohko B</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 72'</div>
+                <div class="teams">PPJ 1 - 1 HIFK Helsinki</div>
+                <div style="font-size:0.8em; color:#888;">Kakkonen - Lohko A</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 70'</div>
+                <div class="teams">JSK 0 - 1 Don Bosco</div>
+                <div style="font-size:0.8em; color:#888;">Ligue 1</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 71'</div>
+                <div class="teams">Dukla Praha 0 - 1 Slovácko</div>
+                <div style="font-size:0.8em; color:#888;">Czech Liga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 71'</div>
+                <div class="teams">Mlada Boleslav 1 - 0 Zlin</div>
+                <div style="font-size:0.8em; color:#888;">Czech Liga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 75'</div>
+                <div class="teams">Teplice 2 - 1 Baník Ostrava</div>
+                <div style="font-size:0.8em; color:#888;">Czech Liga</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 75'</div>
+                <div class="teams">Drukpa 1 - 0 Ugyen Academy</div>
+                <div style="font-size:0.8em; color:#888;">Premier League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 73'</div>
+                <div class="teams">PSS Sleman 1 - 2 Garudayaksa</div>
+                <div style="font-size:0.8em; color:#888;">Liga 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">LNZ Cherkasy 0 - 0 Dynamo Kyiv</div>
+                <div style="font-size:0.8em; color:#888;">Premier League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">ACV 1 - 1 Quick Boys</div>
+                <div style="font-size:0.8em; color:#888;">Tweede Divisie</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Barendrecht 3 - 1 Hoek</div>
+                <div style="font-size:0.8em; color:#888;">Tweede Divisie</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Rijnsburgse Boys 2 - 1 Sparta Rotterdam II</div>
+                <div style="font-size:0.8em; color:#888;">Tweede Divisie</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Melaka 0 - 1 Kuching FA</div>
+                <div style="font-size:0.8em; color:#888;">Super League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Oberachern 1 - 2 Normannia Gmünd</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Baden-Württemberg</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Essingen 0 - 2 FV Ravensburg</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Baden-Württemberg</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Optik Rathenow 1 - 2 Makkabi</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Nordost-Nord</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Todesfelde 0 - 0 Heider SV</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Schleswig-Holstein</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Kaltenkirchen 1 - 1 Eutiner SV</div>
+                <div style="font-size:0.8em; color:#888;">Oberliga - Schleswig-Holstein</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Noordwijk 0 - 1 SteDoCo</div>
+                <div style="font-size:0.8em; color:#888;">Derde Divisie - Sunday</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Zwaluwen 0 - 0 TOGB</div>
+                <div style="font-size:0.8em; color:#888;">Derde Divisie - Sunday</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Benevento U19 1 - 1 Bari U19</div>
+                <div style="font-size:0.8em; color:#888;">Campionato Primavera - 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Orkla 1 - 0 Herd</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 2</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Skjetten 0 - 1 Fløya</div>
+                <div style="font-size:0.8em; color:#888;">3. Division - Girone 5</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Bishkek City 0 - 0 Talant</div>
+                <div style="font-size:0.8em; color:#888;">Premier League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Cerrado EC U20 3 - 0 Aparecidense U20</div>
+                <div style="font-size:0.8em; color:#888;">Goiano U20</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Goiania U20 0 - 1 Guanabara City U20</div>
+                <div style="font-size:0.8em; color:#888;">Goiano U20</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Goiás U20 2 - 3 Vila Nova U20</div>
+                <div style="font-size:0.8em; color:#888;">Goiano U20</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Anapolis U20 1 - 1 Inhumas U20</div>
+                <div style="font-size:0.8em; color:#888;">Goiano U20</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Frigg Oslo FK W 1 - 1 Klepp W</div>
+                <div style="font-size:0.8em; color:#888;">1. Division Women</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">CIVO United 1 - 0 Ekhaya</div>
+                <div style="font-size:0.8em; color:#888;">Super League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">MAFCO 0 - 0 Creck</div>
+                <div style="font-size:0.8em; color:#888;">Super League</div>
+            </div>
+            <div class="card">
+                <div class="live">🔴 45'</div>
+                <div class="teams">Moyale Barracks 1 - 0 Chitipa United</div>
+                <div style="font-size:0.8em; color:#888;">Super League</div>
+            </div></body></html>
