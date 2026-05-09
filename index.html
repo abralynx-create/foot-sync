@@ -5,16 +5,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="refresh" content="300">
-        <title>Foot Sync - Scores en Direct</title>
+        <title>Foot Sync - Live Scores</title>
         <style>
-            body { font-family: sans-serif; background-color: #000; color: #fff; text-align: center; padding: 10px; }
-            .card { background: #1a1a1a; border: 1px solid #333; border-radius: 8px; padding: 15px; margin: 10px auto; max-width: 400px; }
-            .live { color: #00ff00; font-weight: bold; animation: blink 1s infinite; }
-            @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
-            .teams { font-size: 1.1em; margin: 10px 0; }
+            body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0d0d0d; color: #fff; text-align: center; padding: 10px; margin: 0; }
+            .header { background: #00ff00; color: #000; padding: 15px; font-weight: bold; font-size: 1.4em; letter-spacing: 2px; }
+            .card { background: #1a1a1a; border-radius: 15px; padding: 15px; margin: 15px auto; max-width: 500px; border-left: 5px solid #00ff00; }
+            .league { font-size: 0.75em; color: #00ff00; text-transform: uppercase; margin-bottom: 8px; font-weight: bold; }
+            .live { color: #ff3e3e; font-weight: bold; animation: blink 1.2s infinite; font-size: 0.9em; }
+            @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
+            .teams-row { display: flex; justify-content: space-between; align-items: center; margin: 15px 0; }
+            .team-name { width: 35%; font-size: 1.1em; font-weight: bold; }
+            .score { width: 30%; font-size: 2em; font-weight: bold; color: #fff; }
+            .events { font-size: 0.85em; color: #bbb; border-top: 1px solid #333; padding-top: 10px; text-align: left; }
+            .venue { font-size: 0.7em; color: #666; font-style: italic; margin-top: 10px; }
         </style>
     </head>
     <body>
-        <h1 style="color:#00ff00;">⚽ Foot Sync Live</h1>
-        <p>Mis à jour : 15:36</p>
-    <p>Aucun match en direct pour le moment.</p></body></html>
+        <div class="header">FOOT SYNC LIVE</div>
+        <p style="font-size: 0.8em; color: #888;">Dernière MAJ (GMT) : 16:12</p>
+    <div style='margin-top:100px;'>En attente de matchs en direct...</div>
+        <p style="margin-top:50px; font-size:0.6em; color:#333;">Design par Foot Sync</p>
+    </body></html>
+    
